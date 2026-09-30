@@ -13,7 +13,7 @@ export const FPS = 30;
 export const DURATION_SEC = 25;
 
 export const AUDIO = {
-  voz: null as string | null, // 'audio/voz.mp3'
+  voz: null as string | null, // 'audio/voz.mp3'  ← se genera con: npm run voz
   musica: null as string | null, // 'audio/musica.mp3'
   volumenMusica: 0.18,
 };
