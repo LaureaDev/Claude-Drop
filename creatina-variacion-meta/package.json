@@ -1,0 +1,22 @@
+{
+  "name": "creatina-variacion-meta",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render CreatinaMeta out/creatina-meta-9x16.mp4",
+    "render:4x5": "remotion render CreatinaMeta4x5 out/creatina-meta-4x5.mp4"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.531",
+    "@remotion/cli": "4.0.531",
+    "@remotion/fonts": "^4.0.531",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.531"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.6.3"
+  }
+}
